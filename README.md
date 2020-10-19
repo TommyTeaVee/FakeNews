@@ -1,2 +1,4 @@
 # FakeNews
-Fake news
+
+Description: Fake news for REAL.
+Credits: Vincent Klärareiber.
