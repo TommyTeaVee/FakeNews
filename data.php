@@ -15,7 +15,19 @@ try {
 };
 
 $stmt = $pdo->query('SELECT * FROM posts');
-$article = $stmt->fetchAll();
+$articles = $stmt->fetchAll();
+
+function sortFunction($a, $b)
+{
+    return strtotime($a["published"]) - strtotime($b["published"]);
+}
+
+usort($articles, "sortFunction");
+$articles = array_reverse($articles);
+
+
+
+
 
 // This is the file where you can keep your data arrays such as articles and
 // authors.
