@@ -8,6 +8,7 @@ $options = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     PDO::ATTR_EMULATE_PREPARES   => false,
 ];
+
 try {
     $pdo = new PDO($database, '', '',  $options);
 } catch (\PDOException $e) {
@@ -17,9 +18,8 @@ try {
 $statement = $pdo->query('SELECT * FROM posts');
 $articles = $statement->fetchAll();
 
-require('functions.php');
-usort($articles, "sortFunction");
-$articles = array_reverse($articles);
+require 'functions.php';
+
 
 
 
