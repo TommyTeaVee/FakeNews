@@ -12,10 +12,14 @@
 
 -   Press the link or open up your browser and enter localhost:8000
 
+#
+
 **About**
 
 -   This projects design is based from mobile perspective
--   Fakenews was designed for YRGO WU20 "Fake News Assignment
+-   Fakenews was designed for YRGO WU20 "Fake News Assignment"
+    _You're going to build a news feed with fake news articles._
+-   This project contains php, html, css, and a database
 
 Tested on Mac & Windows
 
