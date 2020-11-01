@@ -2,7 +2,7 @@
 
 -   **Clone this repository**
 
-```sh git clone(https://github.com/pnpjss/FakeNews.git)
+```git clone(https://github.com/pnpjss/FakeNews.git)
 
 ```
 
