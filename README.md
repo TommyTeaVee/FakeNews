@@ -2,10 +2,9 @@
 
 **About**
 
--   This projects design is based from mobile perspective
+-   This projects design is based from a mobile perspective
 -   Fakenews was designed for YRGO WU20 "Fake News Assignment"
-    _You're going to build a news feed with fake news articles._
--   This project contains php, html, css, and a database
+-   _"You're going to build a news feed with fake news articles."_
 
 ## Installation guide
 
@@ -14,7 +13,7 @@
 
     `git clone https://github.com/pnpjss/FakeNews.git`
 
--   Navigate to the '/fakenews' directory using cd /
+-   Navigate to the '/fakenews' directory using the cd command
 -   In your terminal enter:
 
     `php -S localhost:8000`
@@ -37,7 +36,10 @@ Dante Morgrim @morgrim-91
 
 **Tested by**
 
-> Erik White @nausea87
-> Joachim Johansson @JoeyjaySWE
-> Rikard Segerkvist @rikardseg
+> Erik White @nausea87,
+> Joachim Johansson @JoeyjaySWE,
+> Rikard Segerkvist @rikardseg,
 > Dante Morgrim @morgrim-91
+
+**License**
+MIT Copyright (c) 2020 pnpjss
