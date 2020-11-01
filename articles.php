@@ -13,5 +13,5 @@ declare(strict_types=1); ?>
         <?php echo ' ' . $article['published']; ?>
         <?php echo ' ' . $article['likes'] + rand(0, 10000) . ' ❤'; ?>
     </div>
-    <span class="article-end"> </span>
+    <span class="article-end"></span>
 <?php endforeach; ?>
