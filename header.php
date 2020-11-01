@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     <title>Fake News</title>
 </head>
-<span class="spanbanner"></span>
+
+<span class="spanbanner-top"></span>
 <header>FAKE NEWS</header>
-<span class="spanbanner"></span>
+<span class="spanbanner-bottom"></span>
