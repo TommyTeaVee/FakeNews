@@ -14,14 +14,10 @@ try {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 };
 
-$stmt = $pdo->query('SELECT * FROM posts');
-$articles = $stmt->fetchAll();
+$statement = $pdo->query('SELECT * FROM posts');
+$articles = $statement->fetchAll();
 
-function sortFunction($a, $b)
-{
-    return strtotime($a["published"]) - strtotime($b["published"]);
-}
-
+require('functions.php');
 usort($articles, "sortFunction");
 $articles = array_reverse($articles);
 
