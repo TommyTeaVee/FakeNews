@@ -1,5 +1,14 @@
 # FakeNews installation guide
 
+**About**
+
+-   This projects design is based from mobile perspective
+-   Fakenews was designed for YRGO WU20 "Fake News Assignment"
+    _You're going to build a news feed with fake news articles._
+-   This project contains php, html, css, and a database
+
+## Installation guide
+
 -   Open terminal
 -   In your terminal, clone this repository by entering the following:
 
@@ -8,26 +17,15 @@
 -   Navigate to the '/fakenews' directory using cd /
 -   In your terminal enter:
 
-`php -S localhost:8000`
+    `php -S localhost:8000`
 
--   Press the link or open up your browser and enter localhost:8000
+-   Press the link or open up your browser and enter localhost:8000 as URL
 
 #
 
-**About**
-
--   This projects design is based from mobile perspective
--   Fakenews was designed for YRGO WU20 "Fake News Assignment"
-    _You're going to build a news feed with fake news articles._
--   This project contains php, html, css, and a database
-
-Tested on Mac & Windows
-
 **Code review by**
 
-> Dante Morgrim @morgrim-91
-
-By Dante Mogrim
+Dante Morgrim @morgrim-91
 
 1. README.md needs completion.
 2. Some pictures related to the article would be nice.
@@ -42,3 +40,4 @@ By Dante Mogrim
 > Erik White @nausea87
 > Joachim Johansson @JoeyjaySWE
 > Rikard Segerkvist @rikardseg
+> Dante Morgrim @morgrim-91
