@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     <title>Fake news</title>
 </head>
-<header>Here we go man, fake news trial and error leg out</header>
+<span class="spanbanner"></span>
+<header>FAKE NEWS</header>
+<span class="spanbanner"></span>
