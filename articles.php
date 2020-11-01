@@ -3,7 +3,7 @@
 declare(strict_types=1); ?>
 
 <main class="grid-container"></main>
-<?php require('data.php'); ?>
+<?php require 'data.php'; ?>
 <?php foreach ($articles as $article) : ?>
     <div class="grid-item">
         <h1> <?php echo $article['title']; ?> </h1>
